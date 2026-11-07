@@ -1,0 +1,8 @@
+name: 'Dad Jokes'
+description: 'Fetch a random dad joke'
+outputs:
+  joke:
+    description: 'The random dad joke'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
