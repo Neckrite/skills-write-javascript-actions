@@ -27,7 +27,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'Here is your joke:
-
-**' + '${{ steps.joke.outputs.joke }}' + '**'
+              body: 'Dad Joke incoming: ' + '${{ steps.joke.outputs.joke }}'
             })
